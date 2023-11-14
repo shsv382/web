@@ -9,6 +9,15 @@
     <body>
         <div class="main">
             <h1>Hello World</h1>
-        </div>  
+
+            <a class="link" href="https://ya.ru">ya.ru</a>
+        </div> 
+        <script>
+            const link = document.querySelector(".link");
+            
+            link.onclick = (event) => {
+                event.preventDefault();
+            }
+        </script> 
     </body>
 </html>
